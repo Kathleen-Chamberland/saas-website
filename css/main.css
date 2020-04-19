@@ -1,0 +1,82 @@
+h1 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #412600;
+  font-size: 2.5em;
+  margin: 3rem;
+
+}
+
+h4 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  line-height: normal;
+  margin: 3rem;
+}
+
+h3 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.9em;
+  margin: 3rem;
+}
+
+p {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 3rem;
+}
+
+ .ingredients,
+ .preperation {
+  margin: 3rem;
+ }
+
+ .ingredients{
+   font-family: acumin-pro, sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1em;
+   line-height: normal;
+ }
+
+
+nav {
+}
+
+
+.center-align {
+  margin: 0 auto;
+}
+
+.card,
+.large-card {
+  min-height: 12rem;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 3px solid #333;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.card:focus,
+.card:hover,
+.large-card:focus,
+.large-card:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}
