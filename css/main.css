@@ -1,75 +1,66 @@
-header {
-  background-color: lightblue;
+h1 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #412600;
+  font-size: 2.5em;
+  margin: 3rem;
+
 }
 
-/* The code below is to restrict the size of the logo, and to centre it in the nav bar */
-.logo {
-  display: block;
-  height: 60px;
-  width: 80px;
+h4 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  line-height: normal;
+  margin: 3rem;
+}
+
+h3 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.9em;
+  margin: 3rem;
+}
+
+p {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 3rem;
+}
+
+ .ingredients,
+ .preperation {
+  margin: 3rem;
+ }
+
+ .ingredients{
+   font-family: acumin-pro, sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1em;
+   line-height: normal;
+ }
+
+
+nav {
+}
+
+
+.center-align {
   margin: 0 auto;
 }
 
-/* The code below changes the navigation button colour to show the user what page they are on */
-.current {
-  background-color: #333;
-  border-color: #333;
-  color: #fff;
-}
-
-.current:focus,
-.current:hover,
-.btn-ghost:focus,
-.btn-ghost:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
-}
-
-/* The code below hides the navigation button text at the smallest screensize */
-.small-hide {
-  display: none;
-}
-
-/* The code below is a set of basic code for a responsive dropdown menu */
-ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  display: none;
-}
-
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-ul li ul li {
-  clear: both;
-  width: 100%;
-  z-index: 2000;
-}
-
-/* The code below makes the main section purple */
-main {
-  background-color: purple;
-}
-
-/* The code below makes the grey section grey */
-.grey {
-  background-color: grey;
-}
-
-/*The code below makes the beige section beige */
-.beige {
-  background-color: beige;
-}
-
-/* The code below styles the clickable cards */
 .card,
 .large-card {
   min-height: 12rem;
@@ -88,32 +79,4 @@ main {
   background-color: #333;
   border-color: #333;
   color: #fff;
-}
-
-/* The code below makes the background colour for the footer lightpink */
-footer {
-  background-color: lightpink;
-}
-
-@media only screen and (min-width: 25em) {
-
-/* The code below makes the text content of the nav buttons visible at larger screen sizes */
-  .small-hide {
-    display: inline-block;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-  /* The code below pushes the logo to left of the screen at larger sizes */
-  .logo {
-    margin: 0;
-  }
-
-  /* The code below makes the navigation buttons go to the right at larger screen sizes */
-  .big-right {
-    text-align: right;
-  }
-
 }
