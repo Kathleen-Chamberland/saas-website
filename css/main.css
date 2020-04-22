@@ -1,10 +1,9 @@
-h1 {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #412600;
-  font-size: 2.5em;
-  margin: 3rem;
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  font-family: "Bad Script", cursive;
 }
 
 .purple {
@@ -20,31 +19,34 @@ nav li a {
 
 nav a:hover {
   color: black;
-  background-color: #00203FFF;
+  background-color: turquoise;
 }
 
 .btn {
   color: #000;
-  background-color: #ADEFD1FF;
-  border-color: #00203FFF;
+  background-color: #f67f93;
+  border-color: turquoise;
 }
 
 .btn:hover {
   color: black;
-  background-color: #ADEFD1FF;
-  border-color: #00203FFF;
+  background-color: turquoise;
+  border-color: #f67f93;
 }
 
+.banner1 {
+  border: 3px solid yellow;
+}
 
 footer {
   text-align: center;
 }
 
 .card {
-  border: 5px solid green;
+  border: 5px solid purple;
 }
 
 .current {
   color: #000;
-  background-color: #ADEFD1FF;
+  background-color: #f67f93;
 }
