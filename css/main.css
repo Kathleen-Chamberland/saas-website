@@ -6,32 +6,28 @@ html {
   font-family: "Bad Script", cursive;
 }
 
-.purple {
-  color: mediumslateblue;
-}
-
 nav li a {
   background-color: #fff;
   color: #000;
   text-decoration: none;
-  border: 3px solid aquamarine;
+  border: 3px solid lightseagreen;
 }
 
 nav a:hover {
   color: black;
-  background-color: aquamarine;
+  background-color: lightseagreen;
 }
 
 .btn {
   color: #000;
-  background-color: #f67f93;
-  border-color: aquamarine;
+  background-color: coral;
+  border-color: lightseagreen;
 }
 
 .btn:hover {
   color: black;
-  background-color: aquamarine;
-  border-color: #f67f93;
+  background-color: lightseagreen;
+  border-color: coral;
 }
 
 footer {
@@ -44,5 +40,5 @@ footer {
 
 .current {
   color: #000;
-  background-color: #f67f93;
+  background-color: coral;
 }
