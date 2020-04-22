@@ -1,5 +1,5 @@
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .logo {
@@ -7,35 +7,31 @@ html {
 }
 
 .purple {
-  color: purple;
+  color: mediumslateblue;
 }
 
 nav li a {
   background-color: #fff;
   color: #000;
   text-decoration: none;
-  border: 3px solid turquoise;
+  border: 3px solid aquamarine;
 }
 
 nav a:hover {
   color: black;
-  background-color: turquoise;
+  background-color: aquamarine;
 }
 
 .btn {
   color: #000;
   background-color: #f67f93;
-  border-color: turquoise;
+  border-color: aquamarine;
 }
 
 .btn:hover {
   color: black;
-  background-color: turquoise;
+  background-color: aquamarine;
   border-color: #f67f93;
-}
-
-.banner1 {
-  border: 3px solid yellow;
 }
 
 footer {
@@ -43,7 +39,7 @@ footer {
 }
 
 .card {
-  border: 5px solid purple;
+  border: 5px solid mediumslateblue;
 }
 
 .current {
